@@ -1,6 +1,42 @@
-Nothing should be ignored based on the provided file changes. The changes consist of:
-- Added: loader.lua (Lua source file)
-- Modified: Hydroxide (appears to be a source/config file)
-- No build artifacts, dependencies, or temporary files are present
+```
+# Compiled files
+*.pyc
+*.class
+*.o
+*.obj
+*.out
 
-Therefore, no .gitignore rules are needed.
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+# Build artifacts
+dist/
+build/
+coverage/
+htmlcov/
+.coverage
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+```
