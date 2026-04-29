@@ -1,41 +1,6 @@
-```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.class
-*.exe
-*.dll
-*.so
-*.a
-*.out
+Nothing should be ignored based on the provided file changes. The changes consist of:
+- Added: loader.lua (Lua source file)
+- Modified: Hydroxide (appears to be a source/config file)
+- No build artifacts, dependencies, or temporary files are present
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-.env.*
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Editors
-.vscode/
-.idea/
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Distribution
-dist/
-build/
-target/
-```
+Therefore, no .gitignore rules are needed.
